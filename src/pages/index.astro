@@ -1,15 +1,52 @@
----
-title: "Portafolio de Marketing - Alexander Suárez"
-layout: "../layouts/Layout.astro"
----
-<section style="text-align:center; padding:40px;">
-  <h1>¡Hola! Soy Alexander Suárez</h1>
-  <p>Estudiante de Marketing y apasionado por el branding, la creatividad y las estrategias digitales.</p>
-  <img src="/foto-perfil.jpg" alt="Foto de Alexander" style="width:150px; border-radius:50%;">
-  <h2>📈 Mis Proyectos</h2>
-  <ul style="list-style:none;">
-    <li>Campaña de redes para marca local</li>
-    <li>Estrategia de posicionamiento digital</li>
-    <li>Diseño de branding para URBE47</li>
-  </ul>
-</section>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alexander Suárez | Portafolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Alexander Suárez</h1>
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="sobre-mi" class="hero">
+    <img src="https://via.placeholder.com/150" alt="Foto de Alexander">
+    <h2>¡Hola! Soy Alexander Suárez</h2>
+    <p>Estudiante de Marketing apasionado por el branding, la creatividad y las estrategias digitales. 
+      Me gusta crear ideas que conecten marcas con personas y convertir lo común en algo memorable.</p>
+  </section>
+
+  <section id="proyectos">
+    <h2>📂 Mis Proyectos</h2>
+    <div class="proyectos-grid">
+      <div class="card">
+        <h3>Campaña de redes para marca local</h3>
+        <p>Estrategia de contenido visual y emocional para aumentar el alcance en redes.</p>
+      </div>
+      <div class="card">
+        <h3>Estrategia de posicionamiento digital</h3>
+        <p>Diseño de presencia online con enfoque en branding y segmentación.</p>
+      </div>
+      <div class="card">
+        <h3>Branding para URBE47</h3>
+        <p>Creación de identidad visual y concepto de marca urbana con humor local.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contacto">
+    <h3>📩 Contáctame</h3>
+    <p>alexandersuarez@example.com</p>
+    <p>© 2025 | Diseñado con 💡 y creatividad</p>
+  </footer>
+</body>
+</html>
