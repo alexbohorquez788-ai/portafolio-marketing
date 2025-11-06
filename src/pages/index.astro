@@ -1,19 +1,15 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Markdown from '../components/Markdown.astro';
-
-const explainer = `
-An Astro website can go way beyond static pages - on the right platform.
-
-Netlify supports not only [Streaming SSR](https://docs.astro.build/en/guides/server-side-rendering/#html-streaming) and fast [Edge Middleware](https://docs.astro.build/en/guides/middleware/), but also [on-demand revalidation](https://www.netlify.com/blog/cache-tags-and-purge-api-on-netlify/) and [stale-while-revalidate](https://www.netlify.com/blog/swr-and-fine-grained-cache-control/). 
-Any page or data can be rebuilt only when needed, without site visitors ever getting a performance hit.
-`;
+title: "Portafolio de Marketing - Alexander Suárez"
+layout: "../layouts/Layout.astro"
 ---
-
-<Layout title="Welcome to Astro.">
-    <h1 class="mb-10">Netlify Platform Starter for Astro</h1>
-    <Markdown content={explainer} class="mb-10 text-lg" />
-    <p>
-        <a href="https://docs.netlify.com/frameworks/astro/" class="btn btn-lg sm:min-w-64">Read the Docs</a>
-    </p>
-</Layout>
+<section style="text-align:center; padding:40px;">
+  <h1>¡Hola! Soy Alexander Suárez</h1>
+  <p>Estudiante de Marketing y apasionado por el branding, la creatividad y las estrategias digitales.</p>
+  <img src="/foto-perfil.jpg" alt="Foto de Alexander" style="width:150px; border-radius:50%;">
+  <h2>📈 Mis Proyectos</h2>
+  <ul style="list-style:none;">
+    <li>Campaña de redes para marca local</li>
+    <li>Estrategia de posicionamiento digital</li>
+    <li>Diseño de branding para URBE47</li>
+  </ul>
+</section>
